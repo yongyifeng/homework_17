@@ -134,7 +134,7 @@ button:hover{
         width: 60%;
         height: 60%;
         position: relative;
-        margin: 70px 10px 60px 120px;
+        margin: 70px 10px 70px 130px;
         top:-650px;
     }
     .fa {
@@ -159,13 +159,13 @@ button:hover{
     .text{
         justify-items: right; 
         color:rgb(136, 52, 3);
-        font-size: 24px;
+        font-size: 32px;
         font-family: 'Libre Caslon Display', serif;
         font-style: italic; 
         position: absolute;
-        margin: 95% 0% 0% 16%;
+        margin: 95% 0% 0% 20%;
         top:-80px;
-        text-align: left;
+        text-align: center;
     
     }
     .talk{
@@ -173,10 +173,12 @@ button:hover{
         right:0;
         left:0;
         bottom:0;
-        top:120px;
-        font-size:36px;
+        top:580px;
 
 
+    }
+    button{
+        font-size: 42px;
     }
     .talkline{ 
         background-color:rgba(198, 160, 138, 0.322);
@@ -189,7 +191,7 @@ button:hover{
         background-color:rgba(214, 206, 206, 0.171);
         position: relative;
         width:965px;
-        height:1000px;
+        height:1400px;
         top:-900px;
         z-index: -1;
 
@@ -251,7 +253,7 @@ button:hover{
         position: absolute;
         margin: 95% 0% 0% 16%;
         top:10px;
-        text-align: left;
+        text-align: center;
     
     }
     .talk{
@@ -279,5 +281,8 @@ button:hover{
         z-index: -1;
 
     } 
+    button{
+        font-size:20px;
+    }
 
 }  
