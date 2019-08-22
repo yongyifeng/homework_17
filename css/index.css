@@ -110,6 +110,92 @@ button:hover{
 
 }
 
+@media only screen and (max-width: 1000px) {
+    nav{
+        display: flex;
+        background-color:rgba(255, 255, 255, 0.815);
+        align-items: center;
+        justify-content:space-between;
+        border:none;
+    
+    }
+
+    .left a{
+        padding-left: 20px;
+        font-size:24px;
+        font-family: 'Libre Caslon Display', serif;
+    }
+    .middle a{
+        font-size:24px;
+        font-family: 'Libre Caslon Display', serif;
+        padding-left: 20px;
+    }
+    #profile{
+        width: 60%;
+        height: 60%;
+        position: relative;
+        margin: 70px 10px 60px 120px;
+        top:-650px;
+    }
+    .fa {
+        width: 10px;
+        text-align: center;
+        text-decoration: none;
+      }
+    .aboutline{
+        position: relative;;
+        background-color:#C6A08A;
+        height: 2px;
+        width:70px;
+        left:110px;
+        top:15px;
+    }
+    .container{
+        background-color:transparent;
+        width: 80%;
+        margin:70% 10% 0% 10%;
+    
+    }
+    .text{
+        justify-items: right; 
+        color:rgb(136, 52, 3);
+        font-size: 24px;
+        font-family: 'Libre Caslon Display', serif;
+        font-style: italic; 
+        position: absolute;
+        margin: 95% 0% 0% 16%;
+        top:-80px;
+        text-align: left;
+    
+    }
+    .talk{
+        position: relative;
+        right:0;
+        left:0;
+        bottom:0;
+        top:120px;
+        font-size:36px;
+
+
+    }
+    .talkline{ 
+        background-color:rgba(198, 160, 138, 0.322);
+        box-shadow: 0px 3px 10px rgba(226, 198, 171, 0.596);
+        height: 4px;
+        width:400px;
+    
+    }
+    #pb{
+        background-color:rgba(214, 206, 206, 0.171);
+        position: relative;
+        width:965px;
+        height:1000px;
+        top:-900px;
+        z-index: -1;
+
+    } 
+
+}  
 @media only screen and (max-width: 700px) {
     nav{
         display: flex;
